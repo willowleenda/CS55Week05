@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd nextjs-blog && npm run build",
-  "installCommand": "cd nextjs-blog && npm install",
-  "framework": "nextjs"
-}
