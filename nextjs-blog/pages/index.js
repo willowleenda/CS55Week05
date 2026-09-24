@@ -1,7 +1,7 @@
 import Head from 'next/head'; // import head component for setting page metadata
 import Layout, { siteTitle } from '../components/layout'; // import layout component and site title constant
 import utilStyles from '../styles/utils.module.css'; // import css module for styles
-import { getSortedPostsData } from '../lib/posts'; // import function to fetch sorted posts data
+import { getSortedPostsData } from '../lib/posts-json'; // import function to fetch sorted posts data
 import Link from 'next/link'; // import link component for client-side navigation
 import Date from '../components/date'; // import date component to format post dates
 

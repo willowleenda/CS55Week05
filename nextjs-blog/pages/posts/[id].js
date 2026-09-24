@@ -1,4 +1,4 @@
-import { getAllPostIds, getPostData } from '../../lib/posts'; // import functions for fetching post paths and data
+import { getAllPostIds, getPostData } from '../../lib/posts-json'; // import functions for fetching post paths and data
 import Head from 'next/head'; // import head component for setting page metadata
 import Date from '../../components/date'; // import date component to format the post date
 import utilStyles from '../../styles/utils.module.css'; // import css module for styles
